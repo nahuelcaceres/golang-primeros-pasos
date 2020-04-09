@@ -1,0 +1,15 @@
+
+Inicialmente voy a recorrer listaProductos y armar un struct Supermercado que contendra
+cada Producto en un Map con el idProducto como Key.
+El Supermercado se guardara en un Map Supermercados donde el key sera idSupermercado.
+
+[ ] Struct Producto
+    [ ] idProducto
+    [ ] Nombre
+    [ ] Precio
+
+[ ] Struct Supermercado
+    [ ] idSupermercado
+    [ ] Nombre
+    [ ] Productos (Map)
+

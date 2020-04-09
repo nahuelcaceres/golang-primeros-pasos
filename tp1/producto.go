@@ -7,6 +7,13 @@ import (
 	"os"
 )
 
+type ProductoItem struct {
+	IdProducto         int
+	Nombre             string
+	PrecioValue        int
+	NombreSupermercado string
+}
+
 var (
 	// Supermercados contiene una lista de super mercados conocidos.
 	Supermercados = []string{
